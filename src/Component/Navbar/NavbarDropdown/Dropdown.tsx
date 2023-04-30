@@ -12,7 +12,7 @@ function Dropdownmenu(){
 
 
     return(<>
-            <ul className={dropdown ?"none" : "w-10 absolute list-none text-start top-dropdown "} onClick={() => setdropdown(!dropdown)}>
+            <ul className={dropdown ?"none" : "w-20 absolute list-none text-start top-dropdown bg-Drop "} onClick={() => setdropdown(!dropdown)}>
                 {InformationDropdown.map((item) =>{
                     if (item.title === "DropItems2") {
                         return (

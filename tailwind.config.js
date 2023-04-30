@@ -13,10 +13,14 @@ module.exports = {
         "navbar1":'#000000',
         "navbar2":'#3b3a3a',
         "navbar3":'#abaaaa',
+
+        "Drop":'#212136',
+        "Side":'#2d1b1b',
+
       },
 
       spacing:{
-        "homeHeight":"95vh",
+        "homeHeight":"200vh",
 
         'textitems':'180vh',
         'navitems':'13vh',
